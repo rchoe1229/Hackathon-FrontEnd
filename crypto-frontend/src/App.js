@@ -20,7 +20,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Crypto Fuckaround</h1>
+        <div className="lasvegas">
+          CryptoCaravan
+        </div>
         <CryptoList cryptos={this.state.crypto} />
       </div>
     );

@@ -6,13 +6,13 @@ export default function Card({crypto}) {
 
   
   return (
-    <li className="cryptoCard-container">
+    <ul className="cryptoCard-container">
       <div className="cryptoCard">
         <div className="card">
           <h2>{name}</h2>
           <p>${price_usd}</p>
         </div>
       </div>
-    </li>
+    </ul>
   )
 }
