@@ -78,7 +78,7 @@ body{
 
 
 .lasvegas span{
-  animation: blink .3s infinite alternate;
+  animation: blink .4s infinite alternate;
 }
 
 .lasvegas span.delay{

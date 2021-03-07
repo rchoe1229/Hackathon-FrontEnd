@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="lasvegas">
-          CryptoCaravan
+          CryptoCa<span>ra</span>van
         </div>
         <CryptoList cryptos={this.state.crypto} />
       </div>
